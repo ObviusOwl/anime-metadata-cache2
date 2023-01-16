@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="metadata.amc2.tv" name="Anime Metadata Cache 2 scraper" version="1.0.0" provider-name="ObviusOwl">
+    <requires>
+        <import addon="xbmc.metadata" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+    </requires>
+    <extension point="xbmc.metadata.scraper.tvshows" library="tvscraper.py"/>
+    <extension point="xbmc.addon.metadata">
+        <!-- set reuse to false for development -->
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en">Anime TV-shows scraper using the Anime Metadata Cache 2 (AMC2)</summary>
+        <description lang="en">Anime Metadata Cache 2 TV-show scraper.</description>
+        <platform>all</platform>
+        <license>GPL v3.0</license>
+    </extension>
+</addon>
